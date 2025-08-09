@@ -18,7 +18,7 @@ openai = OpenAI(
 #   - The code is not fail safe. It will break if anything goes wrong, such as API unavailability or bad responses from the model.
 #   - Thinking as system integration, the return of the model as string forces a transformation every time its values need to be accessed
 # 2. What ideas do you have to make it better?
-#   - Adjust the temperature to a lower value, making the model more deterministic and predictable, which is very important for this task.
+#   - [Done] Adjust the temperature to a lower value, making the model more deterministic and predictable, which is very important for this task.
 #   - Create unit tests, with real examples, containing spams and not spams content.
 #   - Create a function to strucurate the output as an object.
 #   - Restructure the prompt with clearer and more strict instructions, making it less prone to hallucination.
@@ -44,7 +44,7 @@ Email: {email}"""
     completion = openai.chat.completions.create(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": prompt}], 
-        temperature=1.0, 
+        temperature=0.2, 
         max_tokens=100,
     )
     return completion.choices[0].message.content
