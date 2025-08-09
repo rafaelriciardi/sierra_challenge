@@ -36,3 +36,38 @@ To solve the identified issues and implement these improvements, the project was
 * `solution.py`: This file contains the core logic for the solution, including the source code to classify an email as spam or not.
 * `test_cases.json`: A JSON file that I created manually by extracting real examples from my email, containing both spam and non-spam content.
 * `test_spam_classifier.py`: A script to test all the cases from the JSON file against the functions developed in `solution.py`.
+
+---
+
+## **How to Run**
+
+This guide explains how to set up the environment and run the project tests.
+
+---
+
+### **Setup**
+
+#### **Step 1: Install Dependencies**
+
+To reproduce and run the code, it's important to install all the required packages listed in the `requirements.txt` file. Run the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### **Step 2: Configure API Keys**
+
+Once you have all the packages installed, you need to create a .env file in the project's root folder. Add your API keys from OpenAI and Google to this file as follows:
+
+```
+OPENAI_API_KEY="YOUR_OPENAI_KEY_HERE"
+GOOGLE_API_KEY="YOUR_GOOGLE_KEY_HERE"
+```
+
+### **Running the Tests**
+
+After completing the setup steps, you can run the test script. Open a terminal and execute the following command from the project's root folder:
+
+```bash
+python test_spam_classifier.py
+```
