@@ -20,7 +20,7 @@ openai = OpenAI(
 # 2. What ideas do you have to make it better?
 #   - [Done] Adjust the temperature to a lower value, making the model more deterministic and predictable, which is very important for this task.
 #   - [Done] Change the functions return to a json object to be used in the next steps of the system.
-#   - [Done]Create unit tests, with real examples, containing spams and not spams content.
+#   - [Done] Create case tests, with real examples, containing spams and not spams content.
 #   - [Done] Restructure the prompt with clearer and more strict instructions, making it less prone to hallucination.
 #   - [Done] Add the few-shot technique to the prompt, providing a few examples and their expected outputs.
 #   - Add a fallback option to another LLM service, enhancing the availability of the solution itself.
