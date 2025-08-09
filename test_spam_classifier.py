@@ -55,23 +55,23 @@ class TestFallbackClassifications(unittest.TestCase):
 class TestPrediction(unittest.TestCase):
     def test_predict_case_0(self):
         response = model.predict(test_cases[0]['content'])
-        self.assertEqual(response['is_spam'], test_cases[0]['is_spam'], 'Fallback Classification error')
+        self.assertEqual(response['is_spam'], test_cases[0]['is_spam'], 'Pedict Classification error')
     
     def test_predict_case_1(self):
         response = model.predict(test_cases[1]['content'])
-        self.assertEqual(response['is_spam'], test_cases[1]['is_spam'], 'Fallback Classification error')
+        self.assertEqual(response['is_spam'], test_cases[1]['is_spam'], 'Pedict Classification error')
 
     def test_predict_case_2(self):
         response = model.predict(test_cases[2]['content'])
-        self.assertEqual(response['is_spam'], test_cases[2]['is_spam'], 'Fallback Classification error')
+        self.assertEqual(response['is_spam'], test_cases[2]['is_spam'], 'Pedict Classification error')
 
     def test_predict_case_3(self):
         response = model.predict(test_cases[3]['content'])
-        self.assertEqual(response['is_spam'], test_cases[3]['is_spam'], 'Fallback Classification error')
+        self.assertEqual(response['is_spam'], test_cases[3]['is_spam'], 'Pedict Classification error')
 
     def test_predict_case_4(self):
         response = model.predict(test_cases[4]['content'])
-        self.assertEqual(response['is_spam'], test_cases[4]['is_spam'], 'Fallback Classification error')
+        self.assertEqual(response['is_spam'], test_cases[4]['is_spam'], 'Pedict Classification error')
 
 if __name__ == '__main__':
     unittest.main()
