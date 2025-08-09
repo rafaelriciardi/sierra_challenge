@@ -19,10 +19,10 @@ openai = OpenAI(
 #   - Thinking as system integration, the return of the model as string forces a transformation every time its values need to be accessed
 # 2. What ideas do you have to make it better?
 #   - [Done] Adjust the temperature to a lower value, making the model more deterministic and predictable, which is very important for this task.
-#   - Create a function to strucurate the output as an object.
+#   - [Done] Change the functions return to a json object to be used in the next steps of the system.
 #   - Create unit tests, with real examples, containing spams and not spams content.
-#   - Restructure the prompt with clearer and more strict instructions, making it less prone to hallucination.
-#   - Add the few-shot technique to the prompt, providing a few examples and their expected outputs.
+#   - [Done] Restructure the prompt with clearer and more strict instructions, making it less prone to hallucination.
+#   - [Done] Add the few-shot technique to the prompt, providing a few examples and their expected outputs.
 #   - Add a fallback option to another LLM service, enhancing the availability of the solution itself.
 #   - Use a retry mechanism to ensure the output is as expected.
 #   - Implement exception handling to act when the input is not as expected and when other kinds of errors hit the application, preventing it from breaking.
@@ -61,10 +61,12 @@ def check_spam(email: str) -> str | None:
         temperature=0.2, 
         max_tokens=100,
     )
-    return completion.choices[0].message.content
+
+    response = json.loads(completion.choices[0].message.content)
+    return response
 
 email = "hi how r u bro i have million dollar deal just sign here"
 res = check_spam (email)
 if res:
-    print(json.dumps(json.loads(res),indent=2))
+    print(json.dumps(res,indent=2))
     
