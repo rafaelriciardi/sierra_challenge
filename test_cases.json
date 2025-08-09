@@ -1,0 +1,22 @@
+[   
+    {
+        "is_spam": true,
+        "content": "Hello!\n\nIt’s official: Managed Postgres on Fly.io is ready for primetime. Push a button, pick a size, get a connection string, and leave the boring stuff to us.\n\nHere’s what you get:\n\nHigh-availability Postgres cluster (primary + replica)\nEasy scaling (CPU, RAM, storage)\nAutomated backups and recovery\nBuilt-in connection pooling\nAutomatic encryption at rest and in transit\nPerformance monitoring and metrics\n24/7 support and incident response\nSupport for pgvector extension\n\nGone are the days of babysitting your databases. Now you can focus on building your app while we handle keeping your data safe, fast, and online.\n\nPricing is simple and transparent, with no surprises. Create a cluster from within your Fly.io dashboard or using the flyctl (all the details can be found in the docs).\n\nGot questions or ideas? Hit reply or open up a support ticket. We’re always listening (really).\n\nThanks for your patience and feedback during early access. Go forth and Postgres confidently!\n\n– The Fly.io Team"
+    },
+    {
+        "is_spam": true,
+        "content": "hi how r u bro i have million dollar deal just sign here"
+    },
+    {
+        "is_spam": false,
+        "content": "Hi Rafael, how are you?\nAs I explained during our call, we are moving you to the next step of our process: a Take-Home Challenge!\nPlease, take a look at the attached document - it contains all the necessary information. You have 24 hours to send back this challenge, starting now :)\nOnce you complete this task, please send it back to us here and we will take a look at your result.\nIn case you have any questions, feel free to ask us - I copied Sanford on this email, our Head of AI, in case you have any technical doubts!\nBest,"
+    },
+    {
+        "is_spam": true,
+        "content": "Hi Rafael,\n\nAs we stand at the brink of a technological revolution, the demand for skilled professionals in the field of Data Science is skyrocketing. Understanding this, we have meticulously designed the Certified AI & ML BlackBelt Plus Program. Do you know why our program stands out?\n\nExtensive Curriculum: Spanning over 27+ courses, our meticulously designed curriculum covers everything from the basics to advanced concepts in Data Science, Machine Learning, and Data Engineering. You'll start with the fundamentals, delving into statistics and data analysis, before progressing to complex topics like machine learning and big data technologies. Each module is crafted to ensure a smooth learning curve, making it ideal for beginners and those looking to upskill.\n\nCutting-Edge Tools: In data science, tools are your best allies. We provide hands-on experience with industry-leading tools like Python, R, SQL, TensorFlow, and Tableau. These aren't just tutorials; you'll use these tools on real-world datasets, solving actual problems, ensuring you're job-ready from day one.\n\nThe AI & ML BlackBelt Plus Program isn't just an educational journey; it's a leap towards mastering 23+ tools.\n\nReady to leverage this power-packed opportunity? We're here to guide you every step of the way."
+    },
+    {
+        "is_spam": false,
+        "content": "Boa tarde RAFAEL\nsegue contrato digitalizado.\nAtt\nMACHADO"
+    }
+]
