@@ -1,0 +1,2 @@
+# Ignorar arquivos de segredos e variáveis de ambiente
+.env
